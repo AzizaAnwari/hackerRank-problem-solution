@@ -19,6 +19,8 @@ function aVeryBigSum($ar) {
     for ($i = 0 ; $i < $ar_length ; $i++ ){
         $sum = $sum + $ar[$i];
     }
+    // Or simply use Array sum
+    // $sum = array_sum($ar);
     return $sum;
 }
 
