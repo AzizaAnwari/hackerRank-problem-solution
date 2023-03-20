@@ -10,7 +10,7 @@
 function timeConversion($s) {
     // Write your code here
     $d=strtotime($s);
-    return date("G:i:s", $d);
+    return date("H:i:s", $d);
 }
 
 $fptr = fopen(getenv("OUTPUT_PATH"), "w");
